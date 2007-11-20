@@ -90,7 +90,7 @@ rm -rf $RPM_BUILD_ROOT
 # %lang(th) %{_datadir}/%{_altname}/lang/skype_th.qm
 %lang(tr) %{_datadir}/%{_altname}/lang/skype_tr.qm
 # probably zh
-%lang(zh) %{_datadir}/%{_altname}/lang/skype_zh_s.qm
+%lang(zh_CN) %{_datadir}/%{_altname}/lang/skype_zh_s.qm
 # probably zh_TW
 %lang(zh_TW) %{_datadir}/%{_altname}/lang/skype_zh_t.qm
 
