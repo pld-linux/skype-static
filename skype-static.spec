@@ -1,6 +1,5 @@
-#
-#TODO:
-#ostrzezenie: Znaleziono zainstalowane (ale niespakietowane) pliki:
+# TODO:
+# warning: Installed (but unpackaged) file(s) found:
 #   /usr/share/skype/lang/skype_es.qm
 #   /usr/share/skype/lang/skype_fr.qm
 #   /usr/share/skype/lang/skype_it.qm
