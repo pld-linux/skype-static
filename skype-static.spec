@@ -1,6 +1,6 @@
 #
 #TODO:
-#ostrze¿enie: Znaleziono zainstalowane (ale niespakietowane) pliki:
+#ostrzeenie: Znaleziono zainstalowane (ale niespakietowane) pliki:
 #   /usr/share/skype/lang/skype_es.qm
 #   /usr/share/skype/lang/skype_fr.qm
 #   /usr/share/skype/lang/skype_it.qm
