@@ -1,15 +1,26 @@
+#
+#TODO:
+#ostrze¿enie: Znaleziono zainstalowane (ale niespakietowane) pliki:
+#   /usr/share/skype/lang/skype_es.qm
+#   /usr/share/skype/lang/skype_fr.qm
+#   /usr/share/skype/lang/skype_it.qm
+#   /usr/share/skype/lang/skype_ja.qm
+#   /usr/share/skype/lang/skype_ko.qm
+#   /usr/share/skype/lang/skype_lt.qm
+#   /usr/share/skype/lang/skype_pt_br.qm
+#   /usr/share/skype/lang/skype_th.qm
 Summary:	p2p VoIP application
 Summary(pl.UTF-8):	Aplikacja VoIP p2p
 Name:		skype-static
 %define		_altname skype
-Version:	2.0.0.13
+Version:	2.0.0.43
 Release:	1
 # http://www.skype.com/company/legal/promote/distributionterms.html
 # distributing on CD-ROM and similar media requires approval
 License:	Commercial, redistributable (see LICENSE)
 Group:		Applications/Communications
 Source0:	http://download.skype.com/linux/%{_altname}_static-%{version}.tar.bz2
-# Source0-md5:	5890a138f92aaefdf65275c919864a82
+# Source0-md5:	f30e695ed74197627528a52c70745202
 Patch0:		%{name}-desktop.patch
 URL:		http://www.skype.com/
 Provides:	%{_altname}
