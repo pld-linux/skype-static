@@ -13,7 +13,7 @@ Summary(pl.UTF-8):	Aplikacja VoIP p2p
 Name:		skype-static
 %define		_altname skype
 Version:	2.0.0.63
-Release:	1
+Release:	2
 # http://www.skype.com/company/legal/promote/distributionterms.html
 # distributing on CD-ROM and similar media requires approval
 License:	Commercial, redistributable (see LICENSE)
@@ -23,6 +23,7 @@ Source0:	http://download.skype.com/linux/%{_altname}_static-%{version}.tar.bz2
 Patch0:		%{name}-desktop.patch
 URL:		http://www.skype.com/
 Provides:	%{_altname}
+Conflicts:	skype
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
