@@ -23,7 +23,6 @@ Source0:	http://download.skype.com/linux/%{_altname}_static-%{version}.tar.bz2
 Patch0:		%{name}-desktop.patch
 URL:		http://www.skype.com/
 Provides:	%{_altname}
-Conflicts:	skype
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
