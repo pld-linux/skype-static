@@ -1,19 +1,9 @@
-# TODO:
-# warning: Installed (but unpackaged) file(s) found:
-#   /usr/share/skype/lang/skype_es.qm
-#   /usr/share/skype/lang/skype_fr.qm
-#   /usr/share/skype/lang/skype_it.qm
-#   /usr/share/skype/lang/skype_ja.qm
-#   /usr/share/skype/lang/skype_ko.qm
-#   /usr/share/skype/lang/skype_lt.qm
-#   /usr/share/skype/lang/skype_pt_br.qm
-#   /usr/share/skype/lang/skype_th.qm
 Summary:	p2p VoIP application
 Summary(pl.UTF-8):	Aplikacja VoIP p2p
 Name:		skype-static
 %define		_altname skype
 Version:	2.0.0.68
-Release:	1
+Release:	2
 # http://www.skype.com/company/legal/promote/distributionterms.html
 # distributing on CD-ROM and similar media requires approval
 License:	Commercial, redistributable (see LICENSE)
@@ -78,26 +68,26 @@ rm -rf $RPM_BUILD_ROOT
 %lang(de) %{_datadir}/%{_altname}/lang/skype_de.qm
 # %lang(el) %{_datadir}/%{_altname}/lang/skype_el.qm
 %lang(en) %{_datadir}/%{_altname}/lang/skype_en.qm
-# %lang(es) %{_datadir}/%{_altname}/lang/skype_es.qm
+%lang(es) %{_datadir}/%{_altname}/lang/skype_es.qm
 %lang(et) %{_datadir}/%{_altname}/lang/skype_et.qm
 # %lang(fi) %{_datadir}/%{_altname}/lang/skype_fi.qm
-# %lang(fr) %{_datadir}/%{_altname}/lang/skype_fr.qm
+%lang(fr) %{_datadir}/%{_altname}/lang/skype_fr.qm
 # %lang(he) %{_datadir}/%{_altname}/lang/skype_he.qm
 # %lang(hu) %{_datadir}/%{_altname}/lang/skype_hu.qm
-# %lang(it) %{_datadir}/%{_altname}/lang/skype_it.qm
-# %lang(ja) %{_datadir}/%{_altname}/lang/skype_ja.qm
-# %lang(ko) %{_datadir}/%{_altname}/lang/skype_ko.qm
+%lang(it) %{_datadir}/%{_altname}/lang/skype_it.qm
+%lang(ja) %{_datadir}/%{_altname}/lang/skype_ja.qm
+%lang(ko) %{_datadir}/%{_altname}/lang/skype_ko.qm
 %lang(lv) %{_datadir}/%{_altname}/lang/skype_lv.qm
+%lang(lt) %{_datadir}/%{_altname}/lang/skype_lt.qm
 # %lang(nl) %{_datadir}/%{_altname}/lang/skype_nl.qm
 # %lang(nb) %{_datadir}/%{_altname}/lang/skype_nb.qm
 %lang(pl) %{_datadir}/%{_altname}/lang/skype_pl.qm
-# probably pt_BR
-# %lang(pt_BR) %{_datadir}/%{_altname}/lang/skype_pp.qm
+%lang(pt_BR) %{_datadir}/%{_altname}/lang/skype_pt_br.qm
 %lang(pt) %{_datadir}/%{_altname}/lang/skype_pt_pt.qm
 %lang(ro) %{_datadir}/%{_altname}/lang/skype_ro.qm
 %lang(ru) %{_datadir}/%{_altname}/lang/skype_ru.qm
 # %lang(sv)  %{_datadir}/%{_altname}/lang/skype_sv.qm
-# %lang(th) %{_datadir}/%{_altname}/lang/skype_th.qm
+%lang(th) %{_datadir}/%{_altname}/lang/skype_th.qm
 %lang(tr) %{_datadir}/%{_altname}/lang/skype_tr.qm
 # probably zh
 %lang(zh_CN) %{_datadir}/%{_altname}/lang/skype_zh_s.qm
