@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Aplikacja VoIP p2p
 Name:		skype-static
 %define		_altname skype
 Version:	2.1.0.47
-Release:	2
+Release:	3
 # http://www.skype.com/company/legal/promote/distributionterms.html
 # distributing on CD-ROM and similar media requires approval
 License:	Commercial, redistributable (see LICENSE)
@@ -15,6 +15,10 @@ URL:		http://www.skype.com/
 Conflicts:	skype
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define		_enable_debug_packages	0
+# https://developer.skype.com/jira/browse/SCL-569
+%define		no_install_post_strip	1
 
 %description
 p2p VoIP application.
