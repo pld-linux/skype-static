@@ -13,7 +13,7 @@ Source0:	http://download.skype.com/linux/%{_altname}_static-%{version}.tar.bz2
 Patch0:		%{name}-desktop.patch
 URL:		http://www.skype.com/
 Conflicts:	skype
-Provides:	skype-program
+Provides:	skype-program = %{version}
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
