@@ -37,7 +37,7 @@ na <http://www.skype.com/go/redistribution/>.
 
 %prep
 %setup -q -n %{pkgname}_static-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
